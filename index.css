@@ -1,0 +1,590 @@
+body {
+  background-color: grey;
+}
+
+div {
+  height: 200px;
+  background-color: black;
+  width: 5px;
+  position: absolute;
+}
+/* V */
+
+.v {
+  top: 250px;
+  left: 100px;
+}
+
+#one {
+  transform: rotate(160deg);
+}
+
+#two {
+     left: 167px; 
+     transform: rotate(200deg);
+}
+
+/* A */
+
+.a{
+    top: 250px;
+}
+
+#three{
+    left: 290px; 
+    transform: rotate(200deg);}
+#four{
+       left: 357px;
+       transform: rotate(160deg);
+}
+#five{
+    height: 80px;
+    top: 320px;
+    left: 324px;
+    transform: rotate(90deg);  
+}
+
+/* T */
+
+.t{
+    top: 250px;
+}
+#six{
+     left: 490px;
+}
+#seven{
+      height: 190px;
+      left: 495px;
+      transform: rotate(90deg);
+      top: 155px;
+     
+}
+
+/* S */
+.s{
+    top: 250px;
+}
+
+#eight{
+    height: 190px;
+    left: 740px ;
+    transform: rotate(90deg);
+    top: 155px;
+}
+#nine{
+      top: 248px;
+      height: 99px;
+      left: 646px;
+}
+#ten{
+     top: 249px;
+     left: 743px;
+     transform: rotate(90deg);
+}
+#eleven{
+       height: 99px; 
+       left: 840px;
+       top: 348px;
+}
+#twelve{
+    transform: rotate(90deg);
+    top: 347px;
+    left: 743px;
+}
+
+/* Second A */
+
+#thirteen{
+    left: 950px;
+    top: 250px; 
+    transform: rotate(200deg);}
+#fourteen{
+       top:250px;
+       left: 1017px;
+       transform: rotate(160deg);
+}
+#fifteen{
+    height: 79px;
+    top: 320px;
+    left: 983px;
+    transform: rotate(90deg);  
+}
+
+/* L */
+
+.l{
+    top: 250px;
+ }
+ #sixteen{
+     left: 1125px;
+ }
+ #seventeen{
+     height: 110px;
+     transform: rotate(90deg);
+     top: 392px;   
+     left: 1180px;
+ }
+
+ /*
+   *********************
+ 
+   Animation Time  
+   
+   *********************
+   */
+
+#one{
+     animation-name: one;
+     animation-duration: 5s;
+}
+@keyframes one{
+       
+      0%{
+           background-color: rgb(133, 102, 161), darkseagreen;
+           transform: rotate(1800deg);
+           transform-origin: bottom;
+        }
+       25%{
+           background-color: rgb(179, 93, 93);
+       }
+       50%{
+           background-color:rgb(95, 110, 72);
+       }
+       75%{
+           background-color:rgb(100, 185, 100);
+
+       }
+       100%{
+         background-color:rgb(179, 113, 179);
+       } 
+
+
+}
+
+/*  Second DIV*/
+
+#two{
+    animation-name: two;
+    animation-duration: 5s;
+}
+@keyframes two{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(1000deg);
+          transform-origin: top;
+        }
+      25%{
+          background-color: rgb(137, 82, 209);
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+    }
+    /*                Third                */
+#three{
+    animation-name: three;
+    animation-duration: 5s;
+}
+@keyframes three{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: translate3d(300px, 10px, 300px);
+   
+      }
+      25%{
+          background-color: rgb(84, 196, 177);
+          
+        }
+      50%{
+          background-color:rgb(236, 184, 72);
+      }
+      75%{
+          background-color:green;
+          
+
+      }
+      100%{
+        background-color:rgb(146, 75, 155);
+      }
+}
+
+/*                    Fourth  div               */
+
+#four{
+    animation-name: four;
+    animation-duration: 5s;
+}
+@keyframes four{
+      0%{
+          background-color: rgb(194, 62, 139), darkseagreen;
+          transform: rotate(3000deg);
+        }
+      25%{
+          background-color: rgb(124, 81, 202);
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                 fivth div                 */
+
+#five{
+    animation-name: five;
+    animation-duration: 5s;
+}
+@keyframes five{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(10000deg);
+         /* transform: scale(3);*/
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:rgb(107, 219, 204);
+      }
+      75%{
+          background-color:rgb(56, 65, 56);
+
+      }
+      100%{
+        background-color:rgb(54, 27, 54);
+      }
+}
+
+/*                  sixth div                 */
+
+#six{
+    animation-name: six;
+    animation-duration: 5s;
+}
+@keyframes six{
+      0%{
+          background-color: blueviolet, darkseagreen;
+         
+          transform: translate(500px );
+        
+        }
+      25%{
+          background-color: rgb(204, 184, 184);
+      }
+      50%{
+          background-color:rgb(73, 47, 221);
+          transform:rotate(360deg);
+      }
+      75%{
+          background-color:rgb(137, 197, 137);
+          
+
+      }
+      100%{
+        background-color:rgb(197, 66, 57);
+       
+      }
+}
+
+/*              seventh div                   */
+
+#seven{
+    animation-name: seven;
+    animation-duration: 5s;
+}
+@keyframes seven{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: translate3d(20deg, 10000deg, 2000deg);
+           border-radius: 50%;
+        }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+  
+    }
+}
+
+/*              8th   div              */
+
+#eight{
+    animation-name: eight;
+    animation-duration: 5s;
+}
+@keyframes eight{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: scale(3);
+       }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+          
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*              9th div                    */
+
+#nine{
+    animation-name: nine;
+    animation-duration: 5s;
+}
+@keyframes nine{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(3000deg);
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    10th div                */
+
+#ten{
+    animation-name: ten;
+    animation-duration: 5s;
+}
+@keyframes ten{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: scale(3);
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    11th div                */
+
+#eleven{
+    animation-name: eleven;
+    animation-duration: 5s;
+}
+@keyframes eleven{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(3000deg);
+        }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    12th div                */
+
+#twelve{
+    animation-name: twelve;
+    animation-duration: 5s;
+}
+@keyframes twelve{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: scale(3);
+
+        }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    13th div                */
+
+#thirteen{
+    animation-name: thirteen;
+    animation-duration: 5s;
+}
+@keyframes thirteen{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(3000deg); 
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    14th div                */
+
+#fourteen{
+    animation-name: fourteen;
+    animation-duration: 5s;
+}
+@keyframes fourteen{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotate(3000deg); 
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    15th div                */
+
+
+#fifteen{
+    animation-name: fifteen;
+    animation-duration: 5s;
+}
+@keyframes fifteen{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: scale(5);
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    16th div                */
+
+#sixteen{
+    animation-name: sixteen;
+    animation-duration: 5s;
+}
+@keyframes sixteen{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: translate3d(60px, 300px, 400px);
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
+
+/*                    17th div                */
+
+#seventeen{
+    animation-name: seventeen;
+    animation-duration: 5s;
+}
+@keyframes seventeen{
+      0%{
+          background-color: blueviolet, darkseagreen;
+          transform: rotateZ(3000deg);
+      }
+      25%{
+          background-color: brown;
+      }
+      50%{
+          background-color:greenyellow;
+      }
+      75%{
+          background-color:green;
+
+      }
+      100%{
+        background-color:purple;
+      }
+}
